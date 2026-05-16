@@ -322,3 +322,70 @@ footer p {
   font-size: 11px;
   letter-spacing: 0.05em;
 }
+
+/* ─── RESPONSIVE ─────────────────────────────────────────── */
+
+@media (max-width: 768px) {
+
+  /* Nav */
+  nav {
+    padding: 16px 20px;
+  }
+
+  .nav-links a:not(.nav-cta) {
+    display: none;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 70px 24px 60px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  /* Steps — stack vertically */
+  .steps {
+    grid-template-columns: 1fr;
+  }
+
+  /* Services — 1 column */
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Who it's for — 2 columns */
+  .for-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Section padding */
+  section {
+    padding: 60px 24px;
+  }
+
+  /* Book section */
+  .book h2 {
+    font-size: 24px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 24px 20px;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .for-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+}
