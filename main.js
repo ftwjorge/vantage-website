@@ -7,10 +7,9 @@ AOS.init({
 });
 
 // Open Calendly booking popup
-// Replace URL with your actual Calendly link before going live
 function openCalendly(e) {
   e.preventDefault();
   Calendly.initPopupWidget({
-    url: 'https://calendly.com/YOUR_USERNAME/strategy-call'
+    url: 'https://calendly.com/prof-jquevedo06/30min'
   });
 }
