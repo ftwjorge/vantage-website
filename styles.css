@@ -152,6 +152,45 @@ section {
   margin-bottom: 56px;
 }
 
+/* TRUST BAR */
+.trust-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-primary);
+  padding: 40px 80px;
+}
+
+.trust-item {
+  flex: 1;
+  text-align: center;
+}
+
+.trust-number {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: -0.02em;
+  margin-bottom: 6px;
+}
+
+.trust-label {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.trust-divider {
+  width: 1px;
+  height: 48px;
+  background: var(--border);
+  flex-shrink: 0;
+}
+
 /* HOW IT WORKS */
 .how {
   background: var(--bg-section);
