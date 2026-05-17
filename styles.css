@@ -208,9 +208,6 @@ section {
   border-bottom: 1px solid var(--border);
 }
 
-.service-card:last-child:nth-child(3n+1) {
-  grid-column: 2;
-}
 
 .service-card h4 {
   font-size: 14px;
@@ -239,6 +236,11 @@ section {
 
 .service-tag.medium {
   color: var(--text-secondary);
+  border-color: var(--border);
+}
+
+.service-tag.supporting {
+  color: var(--text-muted);
   border-color: var(--border);
 }
 
